@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
@@ -8,28 +9,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors !</title>
 </head>
+
 <body>
     <nav>
         <h1>Rock Paper Scissors !</h1>
     </nav>
     <div class="player">
-        
-        <button class="playerbtn" onclick="getPlayerSelection(0)"> <i class="fa fa-hand-rock-o" aria-hidden="true"></i></button>
-        <button class="playerbtn" onclick="getPlayerSelection(1)"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></button>
-        <button class="playerbtn" onclick="getPlayerSelection(2)"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></button>
+
+        <button class="playerbtn" onclick="getPlayerSelection(0)"> <i class="fa fa-hand-rock-o"
+                aria-hidden="true"></i></button>
+        <button class="playerbtn" onclick="getPlayerSelection(1)"><i class="fa fa-hand-paper-o"
+                aria-hidden="true"></i></button>
+        <button class="playerbtn" onclick="getPlayerSelection(2)"><i class="fa fa-hand-scissors-o"
+                aria-hidden="true"></i></button>
     </div>
-    <div class="result" >
-        <div id="score" >
-            <h1 >Score</h1>
-            <p id="scoretag">Player: 0    &nbsp;  Computer: 0</p>
+    <div class="result">
+        <div id="score">
+            <h1>Score</h1>
+            <pre id="scoretag">Player: 0        Computer: 0</pre>
             <h3 id="winner"></h3>
         </div>
-        
-        
+
+
     </div>
     <div class="reset">
         <button onclick="restartGame()" id="resetbtn">New Game</button>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

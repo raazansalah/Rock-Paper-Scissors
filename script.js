@@ -79,7 +79,7 @@ function playRound(playerselection, computerselection) {
 
 
 function printResult(roundwinner, playerScore, computerScore) {
-    score.innerHTML = 'Player'+ ':'+ playerScore + ':' + 'Computer'+ ':'+ computerScore;
+    score.innerHTML = 'Player'+ ':'+ playerScore + '        ' + 'Computer'+ ':'+ computerScore;
     Winer.innerHTML = roundWinner;
     if (playerScore == 5 || computerScore == 5) {
         for (let i = 0; i < userButtons.length; i++) {
