@@ -5,7 +5,7 @@ Rock paper scissors game using : HTML - CSS - JS
 ## How to Use :
 - User Select his Choice 
 - Computer Choose randomly
-- compute the score 
+- Compute the score 
 - Release the winner
 - Game consists of **Five Rounds** 
 
